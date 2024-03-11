@@ -249,6 +249,15 @@ body {
   100% { transform: translateY(10px); }
 }
 
+.section { padding-block: var(--section-padding); }
+
+.btn-link {
+  font-family: var(--ff-chakra-petch);
+  text-transform: uppercase; 
+  color: var(--international-orange-engineering);
+  font-weight: var(--fw-700);
+}
+
 
 /*-----------------------------------*\
   #HEADER
@@ -369,7 +378,27 @@ body {
 \*-----------------------------------*/
 
 
+.service-banner { display: none; }
 
+.service { text-align: center; }
+
+.service-list {
+  gap: 0;
+  margin-block-end: 40px;
+}
+
+.service-card .card-icon {
+  max-width: max-content;
+  margin-inline: auto;
+  margin-block-end: 24px;
+}
+
+.service-card .card-text {
+  line-height: 1.2;
+  margin-block: 8px;
+}
+
+.service .btn { margin-inline: auto; }
 
 
 /*-----------------------------------*\
